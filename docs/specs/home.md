@@ -1,6 +1,5 @@
 ---
-title: Design Philosophy
-description: What/why is Frictionledd Data.
+title: Specifications Overview
 ---
 
 Our specifications follow our design philosophy:

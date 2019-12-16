@@ -47,6 +47,19 @@ module.exports = {
   software: {
     Software: [
       'software/home',
-    ]
+      'software/getting-started',
+    ],
+    Tutorials: [
+      'software/using-goodtables-io',
+      'software/scraped-data',
+    ],
+    'API References': [
+      'software/python-datapackage',
+      'software/python-tableschema',
+    ],
+    'What\'s Next?': [
+      'software/next-contribute',
+      'software/next-community',
+    ],
   }
 };

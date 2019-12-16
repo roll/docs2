@@ -47,7 +47,7 @@ module.exports = {
         },
         blog: {
           path: './blog',
-          postsPerPage: 3,
+          postsPerPage: 10,
           feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} Frictionless Data`,
@@ -60,6 +60,7 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    sidebarCollapsible: false,
     image: 'img/docusaurus.png',
     gtag: {
       trackingID: 'UA-141789564-1',

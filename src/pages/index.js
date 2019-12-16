@@ -131,7 +131,7 @@ function Home() {
               <img
                 alt="Community"
                 className={styles.featureImage}
-                src={useBaseUrl('img/community.png')}
+                src={useBaseUrl('img/community3.png')}
               />
               <h3 className="padding-top--md">Community</h3>
               <p className="padding-horiz--md">
@@ -145,7 +145,7 @@ function Home() {
 
       <div className={classnames(styles.section, 'section-users')}>
         <div className="container text--center">
-          <h2>Who it using Frictionless Data</h2>
+          <h2>Who is using Frictionless Data</h2>
           <img src="/img/users2.png" alt="" />
         </div>
       </div>

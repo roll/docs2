@@ -6,34 +6,35 @@
  */
 
 module.exports = {
-  docs: {
-    Docusaurus: ['introduction', 'design-principles', 'contributing'],
-    'Getting Started': ['installation', 'configuration'],
-    Guides: [
-      'creating-pages',
-      'styling-layout',
-      'static-assets',
-      {
-        type: 'category',
-        label: 'Docs',
-        items: ['markdown-features', 'sidebar', 'versioning'],
-      },
-      'blog',
-      'search',
-      'deployment',
-      'migrating-from-v1-to-v2',
+  intro: {
+    Introduction: [
+      'intro/home',
+      'intro/containers',
+      'intro/principles',
     ],
-    'Advanced Guides': ['using-plugins', 'using-themes', 'presets'],
-    'API Reference': [
-      'cli',
-      'docusaurus-core',
-      'docusaurus.config.js',
-      'lifecycle-apis',
-      'theme-classic',
+    'Field Guide': [
+      'intro/field-guide',
+      'intro/well-packaged-dataset',
+      'intro/validated-tabular-data',
     ],
+    'Reproducible Research': [
+      'intro/reproducible-research',
+      'intro/fellows-program',
+    ],
+    'What\'s Next?': [
+      'intro/next-specs',
+      'intro/next-software',
+      'intro/next-community',
+    ]
   },
   specs: {
-    Docusaurus: ['introduction', 'design-principles', 'contributing'],
-    'Getting Started': ['installation', 'configuration'],
+    Specifications: [
+      'specs/home',
+    ]
+  },
+  software: {
+    Software: [
+      'software/home',
+    ]
   }
 };

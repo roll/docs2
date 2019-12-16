@@ -40,10 +40,9 @@ module.exports = {
         docs: {
           path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
+          // editUrl: 'https://github.com/frictionlessdata/frictionlessdata.io/edit/master/',
+          // showLastUpdateAuthor: true,
+          // showLastUpdateTime: true,
           remarkPlugins: [require('./src/plugins/remark-npm2yarn')],
         },
         blog: {
@@ -51,7 +50,7 @@ module.exports = {
           postsPerPage: 3,
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Frictionless Data`,
           },
         },
         theme: {
@@ -83,9 +82,9 @@ module.exports = {
         src: 'img/fd-blue.png',
       },
       links: [
-        {to: 'docs/introduction', label: 'Intro', position: 'left'},
-        {to: 'specs/introduction', label: 'Specs', position: 'left'},
-        {to: 'specs/introduction', label: 'Software', position: 'left'},
+        {to: 'docs/intro/home', label: 'Intro', position: 'left'},
+        {to: 'docs/specs/home', label: 'Specs', position: 'left'},
+        {to: 'docs/software/home', label: 'Software', position: 'left'},
         {to: 'showcase', label: 'Universe', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {to: 'feedback', label: 'Forum', position: 'left'},
@@ -95,7 +94,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/frictionlessdata/website',
+          href: 'https://github.com/frictionlessdata',
           label: 'GitHub',
           position: 'right',
         },

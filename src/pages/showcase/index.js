@@ -15,9 +15,9 @@ import styles from './styles.module.css';
 import users from '../../data/users';
 
 const ITEMS_PER_ROW = 3; // Sync up the item col width if this is changed.
-const TITLE = 'Showcase';
+const TITLE = 'Universe';
 const DESCRIPTION =
-  'See the awesome websites people are building with Docusaurus';
+  'See the awesome project people are building with Frictionless Data';
 
 function chunkArray(array, size) {
   const chunks = [];

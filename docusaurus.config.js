@@ -8,7 +8,7 @@
 const versions = require('./versions.json');
 
 module.exports = {
-  title: 'Docusaurus',
+  title: 'Frictionless Data',
   tagline: 'Build optimized websites quickly, focus on your content',
   organizationName: 'facebook',
   projectName: 'docusaurus',
@@ -75,29 +75,25 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: 'Docusaurus',
+      title: 'Frictionless Data',
       logo: {
         alt: 'Docusaurus Logo',
         src: 'img/docusaurus.svg',
       },
       links: [
-        {
-          to: 'versions',
-          label: `${versions[0]}`,
-          position: 'left',
-          style: {
-            whiteSpace: 'nowrap',
-            padding: '0.25rem 0.5rem 0.2rem 0.25rem',
-            fontSize: 'calc(0.9 * var(--ifm-font-size-base))',
-            textDecoration: 'underline',
-          },
-        },
-        {to: 'docs/introduction', label: 'Docs', position: 'left'},
+        {to: 'docs/introduction', label: 'Intro', position: 'left'},
+        {to: 'specs/introduction', label: 'Specs', position: 'left'},
+        {to: 'specs/introduction', label: 'Software', position: 'left'},
+        {to: 'showcase', label: 'Universe', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'showcase', label: 'Showcase', position: 'left'},
-        {to: 'feedback', label: 'Feedback', position: 'left'},
+        {to: 'feedback', label: 'Forum', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://gitter.im/frictionlessdata/chat',
+          label: 'Chat',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/frictionlessdata/website',
           label: 'GitHub',
           position: 'right',
         },
@@ -110,15 +106,15 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Introduction',
+              label: 'Intro',
               to: 'docs/introduction',
             },
             {
-              label: 'Installation',
+              label: 'Specs',
               to: 'docs/installation',
             },
             {
-              label: 'Migration from v1 to v2',
+              label: 'Software',
               to: 'docs/migrating-from-v1-to-v2',
             },
           ],
@@ -127,20 +123,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
+              label: 'Blog',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Feedback',
+              label: 'Forum',
               to: 'feedback',
             },
             {
-              label: 'Discord',
+              label: 'Chat',
               href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Help',
-              to: 'help',
             },
           ],
         },
@@ -148,11 +140,11 @@ module.exports = {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'GitHub',
+              to: 'https://github.com/frictionlessdata/frictionlessdata.io',
             },
             {
-              label: 'GitHub',
+              label: 'Facebook',
               href: 'https://github.com/facebook/docusaurus',
             },
             {
@@ -163,11 +155,11 @@ module.exports = {
         },
       ],
       logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'https://docusaurus.io/img/oss_logo.png',
-        href: 'https://opensource.facebook.com/',
+        alt: 'Open Knowledge Foundation',
+        src: 'https://a.okfn.org/img/oki/landscape-white-468x122.png',
+        href: 'https://okfn.org',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Frictionless Data`,
     },
   },
 };

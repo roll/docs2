@@ -32,4 +32,8 @@ module.exports = {
       'theme-classic',
     ],
   },
+  specs: {
+    Docusaurus: ['introduction', 'design-principles', 'contributing'],
+    'Getting Started': ['installation', 'configuration'],
+  }
 };

@@ -3,4 +3,4 @@ title: Explore API References
 ---
 
 Explore API References
-- http://localhost:3000/docs/software/python-tableschema
+- https://docs2.roll1.now.sh/docs/software/python-tableschema

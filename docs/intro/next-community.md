@@ -3,6 +3,6 @@ title: Meet the Community
 ---
 
 Meet the community:
-- http://localhost:3000/blog
-- http://localhost:3000/forum
-- http://localhost:3000/chat
+- https://docs2.roll1.now.sh/blog
+- https://docs2.roll1.now.sh/forum
+- https://docs2.roll1.now.sh/chat

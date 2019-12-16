@@ -11,4 +11,4 @@ Our specifications follow our design philosophy:
 > - Cross technology: support a broad range of languages, technologies and infrastructures -- avoid being tied to any one specific system.
 
 Learn more on:
-- http://localhost:3000/docs/specs/home
+- https://docs2.roll1.now.sh/docs/specs/home

@@ -30,6 +30,18 @@ module.exports = {
   specs: {
     Specifications: [
       'specs/home',
+      'specs/data-package',
+      'specs/data-resource',
+      'specs/table-schema',
+    ],
+    Implementations: [
+      'specs/implementation',
+      'specs/profiles',
+      'specs/security',
+    ],
+    'What\'s Next?': [
+      'specs/next-software',
+      'specs/next-community',
     ]
   },
   software: {

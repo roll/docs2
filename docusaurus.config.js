@@ -5,21 +5,23 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const versions = require('./versions.json');
 
 module.exports = {
   title: 'Frictionless Data',
-  tagline: 'Build optimized websites quickly, focus on your content',
+  tagline: 'The future of data is frictionless',
   organizationName: 'facebook',
   projectName: 'docusaurus',
   baseUrl: '/',
-  url: 'https://v2.docusaurus.io',
-  favicon: 'img/docusaurus.ico',
+  url: 'https://v2.frictionlessdata.io',
+  favicon: 'img/fd-blue.png',
   customFields: {
     description:
       'An optimized site generator in React. Docusaurus helps you to move fast and write content. Build documentation websites, blogs, marketing pages, and more.',
   },
   themes: ['@docusaurus/theme-live-codeblock'],
+  stylesheets: [
+    'https://fonts.googleapis.com/css?family=Roboto&display=swap',
+  ],
   plugins: [
     [
       '@docusaurus/plugin-ideal-image',
@@ -70,15 +72,15 @@ module.exports = {
       apiKey: '47ecd3b21be71c5822571b9f59e52544',
       indexName: 'docusaurus-2',
       algoliaOptions: {
-        facetFilters: [`version:${versions[0]}`],
+        // facetFilters: [`version:${versions[0]}`],
       },
     },
     navbar: {
       hideOnScroll: true,
       title: 'Frictionless Data',
       logo: {
-        alt: 'Docusaurus Logo',
-        src: 'img/docusaurus.svg',
+        alt: 'Frictionless Data Logo',
+        src: 'img/fd-blue.png',
       },
       links: [
         {to: 'docs/introduction', label: 'Intro', position: 'left'},

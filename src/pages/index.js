@@ -71,12 +71,10 @@ function Home() {
             <img
               alt="Docusaurus with Keytar"
               className={styles.heroLogo}
-              src={useBaseUrl('img/docusaurus_keytar.svg')}
+              src={useBaseUrl('img/rufus.png')}
             />
-            Build <span className={styles.heroProjectKeywords}>optimized</span>{' '}
-            websites <span className={styles.heroProjectKeywords}>quickly</span>
-            , focus on your{' '}
-            <span className={styles.heroProjectKeywords}>content</span>
+            The <span className={styles.heroProjectKeywords}>future</span> of <span className={styles.heroProjectKeywords}>data</span>{' '}
+            <div>is <span className={styles.heroProjectKeywords}>frictionless</span></div>
           </h1>
           <div className={styles.indexCtas}>
             <Link
@@ -87,7 +85,7 @@ function Home() {
             <span className={styles.indexCtasGitHubButtonWrapper}>
               <iframe
                 className={styles.indexCtasGitHubButton}
-                src="https://ghbtns.com/github-btn.html?user=facebook&amp;repo=docusaurus&amp;type=star&amp;count=true&amp;size=large"
+                src="https://ghbtns.com/github-btn.html?user=frictionlessdata&amp;repo=specs&amp;type=star&amp;count=true&amp;size=large"
                 width={160}
                 height={30}
                 title="GitHub Stars"
@@ -98,11 +96,7 @@ function Home() {
       </div>
       <div className={classnames(styles.announcement, styles.announcementDark)}>
         <div className={styles.announcementInner}>
-          Coming from v1? Check out our{' '}
-          <Link to={useBaseUrl('/docs/migrating-from-v1-to-v2')}>
-            v1 to v2 migration guide
-          </Link>
-          .
+          Specifications and software for the publication, transport, and consumption of data.
         </div>
       </div>
       <div className={styles.section}>

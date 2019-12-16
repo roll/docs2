@@ -46,3 +46,8 @@ html[data-theme='dark'] {
 .navbar__logo {
   color: var(--ifm-color-primary);
 }
+
+.section-users {
+  border-top: dotted 1px #2B3137;
+  border-bottom: dotted 1px #2B3137;
+}

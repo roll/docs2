@@ -100,79 +100,56 @@ function Home() {
         </div>
       </div>
       <div className={styles.section}>
-        <div className="container text--center margin-bottom--xl">
-          <div className="row">
-            <div className="col">
-              <img
-                className={styles.featureImage}
-                alt="Powered by MDX"
-                src={useBaseUrl('img/undraw_typewriter.svg')}
-              />
-              <h3 className="padding-top--md">Powered by Markdown</h3>
-              <p className="padding-horiz--md">
-                Save time and focus on your project's documentation. Simply
-                write docs and blog posts with Markdown/MDX and Docusaurus will
-                publish a set of static HTML files ready to serve. You can even
-                embed JSX components into your Markdown thanks to MDX.
-              </p>
-            </div>
-            <div className="col">
-              <img
-                alt="Built Using React"
-                className={styles.featureImage}
-                src={useBaseUrl('img/undraw_react.svg')}
-              />
-              <h3 className="padding-top--md">Built Using React</h3>
-              <p className="padding-horiz--md">
-                Extend or customize your project's layout by reusing React.
-                Docusaurus can be extended while reusing the same header and
-                footer.
-              </p>
-            </div>
-            <div className="col">
-              <img
-                alt="Ready for Translations"
-                className={styles.featureImage}
-                src={useBaseUrl('img/undraw_around_the_world.svg')}
-              />
-              <h3 className="padding-top--md">Ready for Translations</h3>
-              <p className="padding-horiz--md">
-                Localization comes pre-configured. Use Crowdin to translate your
-                docs into over 70 languages.
-              </p>
-            </div>
-          </div>
-        </div>
         <div className="container text--center">
           <div className="row">
-            <div className="col col--4 col--offset-2">
+            <div className="col">
               <img
-                alt="Document Versioning"
                 className={styles.featureImage}
-                src={useBaseUrl('img/undraw_version_control.svg')}
+                alt="Specifications"
+                src={useBaseUrl('img/standard.png')}
               />
-              <h3 className="padding-top--md">Document Versioning</h3>
+              <h3 className="padding-top--md">Specifications</h3>
               <p className="padding-horiz--md">
-                Support users on all versions of your project. Document
-                versioning helps you keep documentation in sync with project
-                releases.
+                Lightweight containerisation formats for data that provide a
+                minimal yet powerful foundation for data publication, transport,
+                and consumption.
               </p>
             </div>
-            <div className="col col--4">
+            <div className="col">
               <img
-                alt="Document Search"
+                alt="Software"
                 className={styles.featureImage}
-                src={useBaseUrl('img/undraw_algolia.svg')}
+                src={useBaseUrl('img/software.png')}
               />
-              <h3 className="padding-top--md">Content Search</h3>
+              <h3 className="padding-top--md">Software</h3>
               <p className="padding-horiz--md">
-                Make it easy for your community to find what they need in your
-                documentation. We proudly support Algolia documentation search.
+                Apps and integrations that make it easy to integrate Frictionless Data
+                specifications into your data publication, access, and analysis workflows.
+              </p>
+            </div>
+            <div className="col">
+              <img
+                alt="Community"
+                className={styles.featureImage}
+                src={useBaseUrl('img/community.png')}
+              />
+              <h3 className="padding-top--md">Community</h3>
+              <p className="padding-horiz--md">
+                Labs, libraries, governments, and companies are using Frictionless Data
+                in their data workflows to reduce grunt work and move faster to insight.
               </p>
             </div>
           </div>
         </div>
       </div>
+
+      <div className={classnames(styles.section, 'section-users')}>
+        <div className="container text--center">
+          <h2>Who it using Frictionless Data</h2>
+          <img src="/img/users2.png" alt="" />
+        </div>
+      </div>
+
       <div
         className={classnames(
           styles.section,

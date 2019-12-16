@@ -109,15 +109,15 @@ module.exports = {
           items: [
             {
               label: 'Intro',
-              to: 'docs/introduction',
+              to: 'docs/intro/home',
             },
             {
               label: 'Specs',
-              to: 'docs/installation',
+              to: 'docs/specs/home',
             },
             {
               label: 'Software',
-              to: 'docs/migrating-from-v1-to-v2',
+              to: 'docs/software/home',
             },
           ],
         },
@@ -134,7 +134,7 @@ module.exports = {
             },
             {
               label: 'Chat',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://gitter.im/frictionlessdata/chat',
             },
           ],
         },
